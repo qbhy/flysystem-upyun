@@ -1,6 +1,6 @@
 <?php
 
-namespace JellyBool\Flysystem\Upyun;
+namespace Qbhy\Flysystem\Upyun;
 
 use Upyun\Upyun;
 use League\Flysystem\Config;
@@ -8,7 +8,7 @@ use League\Flysystem\Adapter\AbstractAdapter;
 
 /**
  * Class UpyunAdapter
- * @package JellyBool\Flysystem\Upyun
+ * @package Qbhy\Flysystem\Upyun
  */
 class UpyunAdapter extends AbstractAdapter
 {

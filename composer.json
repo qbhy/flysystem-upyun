@@ -1,5 +1,5 @@
 {
-    "name": "jellybool/flysystem-upyun",
+    "name": "qbhy/flysystem-upyun",
     "description": "Flysystem and Laravel adapter for the Upyun storage.",
     "keywords": ["Laravel","upyun","又拍","又拍云"],
     "license": "MIT",
@@ -10,23 +10,22 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=7.3",
         "league/flysystem": "^1.0",
-        "upyun/sdk": "^3.0"
+        "guoxiangke/upyun-sdk": "^3.0"
     },
     "require-dev": {
-        "php": ">=5.6.0",
         "phpunit/phpunit": "~5.7"
     },
     "autoload": {
         "psr-4": {
-            "JellyBool\\Flysystem\\Upyun\\": "src/"
+            "Qbhy\\Flysystem\\Upyun\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JellyBool\\Flysystem\\Upyun\\UpyunServiceProvider"
+                "Qbhy\\Flysystem\\Upyun\\UpyunServiceProvider"
             ]
         }
     }

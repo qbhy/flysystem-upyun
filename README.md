@@ -4,12 +4,12 @@
 
 
 <p align="center">
-<a href="https://scrutinizer-ci.com/g/JellyBool/flysystem-upyun/build-status/master"><img src="https://scrutinizer-ci.com/g/JellyBool/flysystem-upyun/badges/build.png?b=master" alt="Build Status"></a>
-<a href="https://scrutinizer-ci.com/g/JellyBool/flysystem-upyun/build-status/master"><img src="https://scrutinizer-ci.com/g/JellyBool/flysystem-upyun/badges/quality-score.png?b=master" alt="Quality Score"></a>
-<a href="https://packagist.org/packages/JellyBool/flysystem-upyun"><img src="https://poser.pugx.org/JellyBool/flysystem-upyun/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/JellyBool/flysystem-upyun"><img src="https://poser.pugx.org/JellyBool/flysystem-upyun/v/unstable.svg" alt="Latest Unstable Version"></a>
-<a href="https://packagist.org/packages/JellyBool/flysystem-upyun"><img src="https://poser.pugx.org/JellyBool/flysystem-upyun/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/JellyBool/flysystem-upyun"><img src="https://poser.pugx.org/JellyBool/flysystem-upyun/license" alt="License"></a>
+<a href="https://scrutinizer-ci.com/g/qbhy/flysystem-upyun/build-status/master"><img src="https://scrutinizer-ci.com/g/qbhy/flysystem-upyun/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://scrutinizer-ci.com/g/qbhy/flysystem-upyun/build-status/master"><img src="https://scrutinizer-ci.com/g/qbhy/flysystem-upyun/badges/quality-score.png?b=master" alt="Quality Score"></a>
+<a href="https://packagist.org/packages/qbhy/flysystem-upyun"><img src="https://poser.pugx.org/qbhy/flysystem-upyun/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/qbhy/flysystem-upyun"><img src="https://poser.pugx.org/qbhy/flysystem-upyun/v/unstable.svg" alt="Latest Unstable Version"></a>
+<a href="https://packagist.org/packages/qbhy/flysystem-upyun"><img src="https://poser.pugx.org/qbhy/flysystem-upyun/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/qbhy/flysystem-upyun"><img src="https://poser.pugx.org/qbhy/flysystem-upyun/license" alt="License"></a>
 </p>
 
 
@@ -25,7 +25,7 @@
 直接可以通过 composer 来安装:
 ```shell
 
-$ composer require "jellybool/flysystem-upyun"
+$ composer require "qbhy/flysystem-upyun"
 ```
 
 # 使用
@@ -35,7 +35,7 @@ $ composer require "jellybool/flysystem-upyun"
 ```php
 
 use League\Flysystem\Filesystem;
-use JellyBool\Flysystem\Upyun\UpyunAdapter;
+use Qbhy\Flysystem\Upyun\UpyunAdapter;
 
 $bucket = 'your-bucket-name';
 $operator = 'oparator-name';
@@ -56,7 +56,7 @@ $flysystem = new Filesystem($adapter);
 
 'providers' => [
     // Other service providers...
-    JellyBool\Flysystem\Upyun\UpyunServiceProvider::class,
+    Qbhy\Flysystem\Upyun\UpyunServiceProvider::class,
 ],
 ```
 2.在 `config/filesystems.php` 的 `disks` 中添加下面的配置：

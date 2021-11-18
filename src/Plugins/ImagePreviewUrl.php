@@ -1,13 +1,13 @@
 <?php
 
-namespace JellyBool\Flysystem\Upyun\Plugins;
+namespace Qbhy\Flysystem\Upyun\Plugins;
 
 use League\Flysystem\Plugin\AbstractPlugin;
 
 /**
  * Class ImagePreviewUrl
  * 
- * @package JellyBool\Flysystem\Upyun\Plugins
+ * @package Qbhy\Flysystem\Upyun\Plugins
  */
 class ImagePreviewUrl extends AbstractPlugin
 {

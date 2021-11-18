@@ -1,11 +1,11 @@
 <?php
 
-namespace JellyBool\Flysystem\Upyun;
+namespace Qbhy\Flysystem\Upyun;
 
 use League\Flysystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
-use JellyBool\Flysystem\Upyun\Plugins\ImagePreviewUrl;
+use Qbhy\Flysystem\Upyun\Plugins\ImagePreviewUrl;
 
 class UpyunServiceProvider extends ServiceProvider
 {
