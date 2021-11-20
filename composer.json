@@ -12,7 +12,7 @@
     "require": {
         "php": ">=7.3",
         "league/flysystem": "^1.0",
-        "guoxiangke/upyun-sdk": "^3.0"
+        "v012345/upyun": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.7"
